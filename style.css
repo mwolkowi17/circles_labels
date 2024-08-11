@@ -1,0 +1,70 @@
+body {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+  min-height: 100vh;
+  margin: 0;
+  /* overflow: hidden; */
+  background-color: black;
+  position: absolute;
+}
+
+.box {
+  display: block;
+  background-color: Chartreuse;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 230px;
+  border-radius: 25px;
+}
+
+.LabelOne {
+  display: block;
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: 300px;
+  top: 530px;
+  border-radius: 25px;
+}
+
+.round {
+  display: block;
+  background-color: black;
+  border-color: green;
+  border-style: solid;
+  border-width: 5px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 130px;
+  left: 600px;
+  border-radius: 120px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+path {
+  stroke-width: 2;
+  stroke: gray;
+}
+
+#rect {
+  background-color: orange;
+}
+
+.FirstSection {
+  position: relative;
+  display: block;
+  /* background-color: aquamarine; */
+  z-index: 3;
+}
+
+.SecondSection {
+  position: relative;
+  display: block;
+  /* background-color: yellowgreen; */
+  z-index: 1;
+}
